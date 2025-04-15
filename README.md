@@ -1,19 +1,4 @@
----
-title: "UbunFast/README.md at main · romanzini/ubunfast"
-source: "https://github.com/romanzini/UbunFast/blob/main/README.md"
-author:
-  - "[[GitHub]]"
-published:
-created: 2025-04-15
-description: "An comprehensive post-installation configuration tool for Ubuntu servers. - ubinkaze/README.md at main · felipefontoura/ubinkaze"
-tags:
-  - "clippings"
----
-[Open in github.dev](https://github.dev/) [Open in a new github.dev tab](https://github.dev/) [Open in codespace](https://github.com/codespaces/new/felipefontoura/ubinkaze/tree/main?resume=1)
-
-## Ubinkaze
-
-Ubinkaze (U-bin-ka-zeh) - "Ubuntu" + "Kaze" (🌀, wind in Japanese).
+## UbunFast
 
 An comprehensive post-installation configuration tool for Ubuntu servers, streamlining the setup process and implementing best practices.
 
@@ -35,7 +20,7 @@ An comprehensive post-installation configuration tool for Ubuntu servers, stream
 Run the setup script on your server:
 
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/felipefontoura/ubinkaze/stable/boot.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/romanzini/ubunfast/stable/boot.sh)
 ```
 
 If you need to use Docker Swarm run:
@@ -63,16 +48,14 @@ For documentation improvements:
 
 ## 📝 License
 
-Ubinkaze is released under the [MIT License](https://opensource.org/licenses/MIT).
+Ubunfast is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## 📫 Contact
 
-- Project Link: [https://github.com/felipefontoura/ubinkaze](https://github.com/felipefontoura/ubinkaze)
-- Issue Tracker: [GitHub Issues](https://github.com/felipefontoura/ubinkaze/issues)
+- Project Link: [https://github.com/romanzini/ubunfast](https://github.com/romanzini/ubunfast)
+- Issue Tracker: [GitHub Issues](https://github.com/romanzini/ubunfast/issues)
 
 ## 🙏 Acknowledgments
 
-- [@rameerez](https://github.com/rameerez)
-- [Omakub](https://omakub.org/)
 - Contributors and maintainers
 - Open source community
