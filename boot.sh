@@ -19,9 +19,9 @@ echo -e "\nBegin installation (or abort with ctrl+c)..."
 sudo apt-get update >/dev/null
 sudo apt-get install -y git >/dev/null
 
-#echo "Cloning Ubinkaze..."
-#rm -rf ~/.local/share/ubinkaze
-#git clone https://github.com/felipefontoura/ubinkaze.git ~/.local/share/ubinkaze >/dev/null
+echo "Cloning Ubinkaze..."
+rm -rf ~/.local/share/ubunfast
+git clone https://github.com/felipefontoura/ubinkaze.git ~/.local/share/ubunfast >/dev/null
 
 FASTBAT_REF=${FASTBAT_REF:-"stable"}
 
