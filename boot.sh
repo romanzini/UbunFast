@@ -23,13 +23,13 @@ echo "Cloning Ubinkaze..."
 rm -rf ~/.local/share/ubunfast
 git clone https://github.com/romanzini/UbunFast.git ~/.local/share/ubunfast >/dev/null
 
-FASTBAT_REF=${FASTBAT_REF:-"stable"}
+UBUNFAST_REF=${UBUNFAST_REF:-"stable"}
 
-if [[ $FASTBAT_REF != "main" ]]; then
-  cd ~/.local/share/fastbat
-  git fetch origin "$FASTBAT_REF" && git checkout "$FASTBAT_REF"
+if [[ $UBUNFAST_REF != "main" ]]; then
+  cd ~/.local/share/ubunfast
+  git fetch origin "$UBUNFAST_REF" && git checkout "$UBUNFAST_REF"
   cd - >/dev/null
 fi
 
 echo "Installation starting..."
-source ~/.local/share/fastbat/install.sh
+source ~/.local/share/ubunfast/install.sh
