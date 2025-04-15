@@ -2,17 +2,6 @@
 
 set -euo pipefail
 
-banner=' #     # ######  #     # #     # #######    #     #####  ####### 
- #     # #     # #     # ##    # #         # #   #     #    #    
- #     # #     # #     # # #   # #        #   #  #          #    
- #     # ######  #     # #  #  # #####   #     #  #####     #    
- #     # #     # #     # #   # # #       #######       #    #    
- #     # #     # #     # #    ## #       #     # #     #    #    
-  #####  ######   #####  #     # #       #     #  #####     #        
-                                                                              
-'
-
-echo -e "$banner"
 echo "=> This script is for fresh Ubuntu Server 24.04 installations only!"
 echo -e "\nBegin installation (or abort with ctrl+c)..."
 
