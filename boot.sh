@@ -21,7 +21,7 @@ sudo apt-get install -y git >/dev/null
 
 echo "Cloning Ubinkaze..."
 rm -rf ~/.local/share/ubunfast
-git clone https://github.com/felipefontoura/ubinkaze.git ~/.local/share/ubunfast >/dev/null
+git clone https://github.com/romanzini/UbunFast.git ~/.local/share/ubunfast >/dev/null
 
 FASTBAT_REF=${FASTBAT_REF:-"stable"}
 
