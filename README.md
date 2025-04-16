@@ -20,8 +20,10 @@ An comprehensive post-installation configuration tool for Ubuntu servers, stream
 Run the setup script on your server:
 
 ```
-git clone https://github.com/romanzini/UbunFast.git
-cd UbunFast
+git clone https://github.com/romanzini/UbunFast.git ~/.local/share/ubunfast >/dev/null
+cd ~/.local/share/ubunfast
+
+source ~/.local/share/ubunfast/boot.sh
 ```
 
 If you need to use Docker Swarm run:
