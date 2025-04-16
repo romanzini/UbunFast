@@ -20,7 +20,8 @@ An comprehensive post-installation configuration tool for Ubuntu servers, stream
 Run the setup script on your server:
 
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/romanzini/ubunfast/stable/boot.sh)
+git clone https://github.com/felipefontoura/docker-swarm-stacks.git
+cd docker-swarm-stacks
 ```
 
 If you need to use Docker Swarm run:
