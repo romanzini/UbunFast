@@ -58,7 +58,4 @@ Ubunfast is released under the [MIT License](https://opensource.org/licenses/MIT
 - Project Link: [https://github.com/romanzini/ubunfast](https://github.com/romanzini/ubunfast)
 - Issue Tracker: [GitHub Issues](https://github.com/romanzini/ubunfast/issues)
 
-## 🙏 Acknowledgments
 
-- Contributors and maintainers
-- Open source community
